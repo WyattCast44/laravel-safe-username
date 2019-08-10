@@ -18,7 +18,7 @@ composer require wyattcast44/laravel-safe-username
 You can then publish the configuration file
 
 ```bash
-art vendor:publish
+php artisan vendor:publish
 ```
 
 ## Usage
