@@ -1,0 +1,53 @@
+{
+    "name": "wyattcast44/laravel-safe-username",
+    "description": "This package",
+    "keywords": [
+        "wyattcast44",
+        "safe-username"
+    ],
+    "homepage": "https://github.com/wyattcast44/laravel-safe-username",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Wyatt Castaneda",
+            "email": "wyatt.castaneda@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wyattcast44\\SafeUsername\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wyattcast44\\SafeUsername\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wyattcast44\\LaravelSafeUsername\\SafeUsernameServiceProvider"
+            ],
+            "aliases": {
+                "SafeUsername": "Wyattcast44\\SafeUsername\\SafeUsernameFacade"
+            }
+        }
+    }
+}
