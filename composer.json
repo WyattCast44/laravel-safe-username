@@ -1,6 +1,6 @@
 {
     "name": "wyattcast44/laravel-safe-username",
-    "description": "Laravel username filter.",
+    "description": "Laravel safe username validation/filter.",
     "keywords": [
         "wyattcast44",
         "safe-username",

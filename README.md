@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Safe Username
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/wyattcast44/laravel-safe-username.svg?style=flat-square)](https://packagist.org/packages/wyattcast44/laravel-safe-username)
 [![Total Downloads](https://img.shields.io/packagist/dt/wyattcast44/laravel-safe-username.svg?style=flat-square)](https://packagist.org/packages/wyattcast44/laravel-safe-username)
