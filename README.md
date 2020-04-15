@@ -15,8 +15,6 @@ You can install the package via composer:
 composer require wyattcast44/laravel-safe-username
 ```
 
-
-
 ## Usage
 
 ```php
@@ -32,7 +30,7 @@ Validator::make($request, [
 You can publish the configuration file with the command below. This will publish a config file called `safe-username.php`.
 
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --provider="Wyattcast44\SafeUsername\SafeUsernameServiceProvider"
 ```
 
 Once you have published the config file you can add additional usernames to disallow, or add usernames that should pass the validation.
