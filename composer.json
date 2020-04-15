@@ -1,9 +1,10 @@
 {
     "name": "wyattcast44/laravel-safe-username",
-    "description": "This package",
+    "description": "Laravel username filter.",
     "keywords": [
         "wyattcast44",
-        "safe-username"
+        "safe-username",
+        "laravel"
     ],
     "homepage": "https://github.com/wyattcast44/laravel-safe-username",
     "license": "MIT",
@@ -17,11 +18,11 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "5.8.*"
+        "illuminate/support": "^6.0|^7.0"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^7.0"
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0"
     },
     "autoload": {
         "psr-4": {

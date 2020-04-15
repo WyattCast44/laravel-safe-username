@@ -15,14 +15,14 @@ class AllowedUsername implements Rule
      * The collection of disallowed usernames
      */
     protected $disallowed = [];
-    
+
     public function __construct()
     {
         $this->allowed = collect(explode(',', config('safe-username.allowed')));
-        
+
         $this->disallowed = collect(explode(',', config('safe-username.base')))->merge(explode(',', config('safe-username.disallowed')));
     }
-    
+
     /**
      * Determine if the validation rule passes.
      *
