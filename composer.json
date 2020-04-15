@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wyattcast44\\LaravelSafeUsername\\SafeUsernameServiceProvider"
+                "Wyattcast44\\SafeUsername\\SafeUsernameServiceProvider"
             ],
             "aliases": {
                 "SafeUsername": "Wyattcast44\\SafeUsername\\SafeUsernameFacade"
