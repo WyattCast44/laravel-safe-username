@@ -5,7 +5,9 @@
 
 This is a small package to help you easily validate usernames against a list of
 commonly banned usernames, for example: `json`, `admin`, `security`, etc. You
-can also add your own custom allowed and disallowed usernames.
+can also add your own custom allowed and disallowed usernames. 
+
+You can see the full list of disallowed usernames in the config file, or the [source repo](https://github.com/dsignr/disallowed-usernames) from which the list came from.
 
 ## Installation
 
