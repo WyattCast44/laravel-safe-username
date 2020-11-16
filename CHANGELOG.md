@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-safe-username` will be documented in this file
 
+## 2.1.0 - 16-Nov-2020
+
+- Added more banned words 
+
 ## 2.0.0 - 16-Nov-2020
 
 - Support for Laravel 8
