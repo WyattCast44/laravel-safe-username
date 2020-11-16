@@ -20,7 +20,7 @@ composer require wyattcast44/laravel-safe-username
 ## Usage
 
 ```php
-use Wyattcast44\SafeUsername\Rule\AllowedUsername;
+use Wyattcast44\SafeUsername\Rules\AllowedUsername;
 
 Validator::make($request, [
     'username' => ['required', 'string', new AllowedUsername],
